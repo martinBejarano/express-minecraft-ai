@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "strict": false,
+    "noEmit": true,
+    "incremental": true,
+    "module": "ES2022",
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "target": "ES2022",
+    "moduleResolution": "node",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/types/nodeRootType.ts",
+    ],
+  },
+  "include": [
+    "**/*.ts",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
