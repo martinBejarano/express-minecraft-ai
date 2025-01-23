@@ -7,7 +7,6 @@
       ]
     },
     "strict": false,
-    "noEmit": true,
     "incremental": true,
     "module": "ES2022",
     "esModuleInterop": true,
@@ -18,9 +17,10 @@
       "./src/types/nodeRootType.ts",
       "./node_modules/@types",
     ],
+    "outDir": "./dist",
   },
   "include": [
-    "**/*.ts",
+    "src/*.ts",
   ],
   "exclude": [
     "node_modules"
