@@ -15,8 +15,8 @@
     "target": "ES2022",
     "moduleResolution": "node",
     "typeRoots": [
-      "./node_modules/@types",
       "./src/types/nodeRootType.ts",
+      "./node_modules/@types",
     ],
   },
   "include": [
