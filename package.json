@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "dev": "tsx src/app.ts"
+    "dev": "tsx src/app.ts",
+    "vercel-dev": "vercel dev",
+    "vercel-deploy": "vercel"
   },
   "dependencies": {
     "express": "^4.17.1"

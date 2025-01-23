@@ -15,12 +15,12 @@
     "moduleResolution": "node",
     "typeRoots": [
       "./src/types/nodeRootType.ts",
-      "./node_modules/@types",
+      "./node_modules/@types"
     ],
-    "outDir": "./dist",
+    "outDir": "./dist"
   },
   "include": [
-    "src/*.ts",
+    "src/**/*.ts"
   ],
   "exclude": [
     "node_modules"
